@@ -5,9 +5,9 @@ interface MainPageProps {
 }
 
 
-export const MainPage = ({className }: MainPageProps) => {
+export const MainPage = ({ }: MainPageProps) => {
   return (
-    <div className={className}>
+    <div className={cls.MainPage}>
       Hello world
     </div>
   );

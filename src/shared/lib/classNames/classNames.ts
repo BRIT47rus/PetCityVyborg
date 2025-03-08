@@ -1,12 +1,7 @@
-interface classNamesProps {
-    mainClass: string;
-    mods: Record<string, boolean | string>;
-    additional: string | string[];
-}
-export const classNames = ({ mainClass, mods = {}, additional = '' }: classNamesProps): string => {
-    const classes = [mainClass];
+type ModsProps =Record<string,boolean|string>;
 
-
+export const classNames =(cls:string, mods:ModsProps = {}, additional:string[]|string = ''): string => {
+    const classes = [cls];
 
     Object.entries(mods).forEach(([key, value]) => {
         if (value) {
