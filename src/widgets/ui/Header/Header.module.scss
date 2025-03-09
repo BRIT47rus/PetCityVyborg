@@ -1,7 +1,6 @@
 .Header {
     display: flex;
-    outline: 1px solid red;
-   justify-content: end;
+   justify-content: space-between;
    align-items: center;
-   padding: calc(var(--size-font-low)/2) var(--size-font-low);
+   padding: var(--size-font-low);
 }

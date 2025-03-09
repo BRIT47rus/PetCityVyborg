@@ -3,11 +3,11 @@
     font-size: var(--size-font-low);
     cursor: pointer;
     display: inline-block;
-
     padding: 8px 16px;
+    margin-left: var(--size-font-middle);
 
     &:hover {
-        background: var( --color-accent-color);
+        background: var(--color-accent-color);
         transition: all 0.3s ease;
     }
 }

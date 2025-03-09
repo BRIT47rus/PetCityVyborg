@@ -5,7 +5,7 @@ interface LinksProps {
 }
 export const Links = ({ className }: LinksProps) => {
   return (
-    <div className={className}>
+    <div className={cls.links}>
         <Link>Главная</Link>
         <Link>Карта</Link>
         <Link>Всякое</Link>
