@@ -1,4 +1,5 @@
-import { Link } from '../../../shared';
+import { Burger, } from '../../../shared';
+import { Links } from '../Links/Links';
 import cls from './Header.module.scss';
 interface HeaderProps {
   className?: string;
@@ -7,10 +8,8 @@ export const Header = ({  }: HeaderProps) => {
   return (
     <div className={cls.Header}>
       
-        <Link>Главная</Link>
-        <Link>Карта</Link>
-        <Link>Всякое</Link>
-
+      <Links/>
+      <Burger/>
     </div>
   );
 };

@@ -1,1 +1,7 @@
-.Header{}
+.Header {
+    display: flex;
+    outline: 1px solid red;
+   justify-content: end;
+   align-items: center;
+   padding: calc(var(--size-font-low)/2) var(--size-font-low);
+}
