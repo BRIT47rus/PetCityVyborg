@@ -1,4 +1,4 @@
-import cls from './MapPage.module.scss';
+// import cls from './MapPage.module.scss';
 interface MapPageProps {
   className?: string;
 }

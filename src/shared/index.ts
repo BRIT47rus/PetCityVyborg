@@ -4,5 +4,5 @@ import { Burger } from "./ui/Burger/Burger";
 export {
     classNames,
     Link,
-    Burger
+    Burger,
 }
