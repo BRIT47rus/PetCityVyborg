@@ -1,15 +1,12 @@
-import { Burger, Link } from '../../../shared';
-import cls from './Links.module.scss';
-interface LinksProps {
-  className?: string;
-}
-export const Links = ({ className }: LinksProps) => {
+import { Link } from "shared";
+import cls from "./Links.module.scss";
+
+export const Links = () => {
   return (
     <div className={cls.links}>
-        <Link>Главная</Link>
-        <Link>Карта</Link>
-        <Link>Всякое</Link>
-    
+      <Link linkTo="/">Главная </Link>
+      <Link linkTo="/map">Карта</Link>
+      <Link linkTo="/other">Всякое</Link>
     </div>
   );
 };

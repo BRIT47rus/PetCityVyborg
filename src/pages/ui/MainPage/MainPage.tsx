@@ -1,11 +1,8 @@
 import cls from './MainPage.module.scss';
 
-interface MainPageProps {
-  className?: string;
-}
 
 
-export const MainPage = ({ }: MainPageProps) => {
+export const MainPage = () => {
   return (
     <div className={cls.MainPage}>
       Hello world

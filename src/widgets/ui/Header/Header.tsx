@@ -1,10 +1,7 @@
-import { Burger, } from '../../../shared';
-import { Links } from '../Links/Links';
+import { Burger } from 'shared';
 import cls from './Header.module.scss';
-interface HeaderProps {
-  className?: string;
-}
-export const Header = ({  }: HeaderProps) => {
+import { Links } from '../Links/Links';
+export const Header = ( ) => {
   return (
     <div className={cls.Header}>
       

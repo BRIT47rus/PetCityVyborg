@@ -1,5 +1,5 @@
 .link {
-    color: var(--color-font);
+    
     font-size: var(--size-font-low);
     cursor: pointer;
     display: inline-block;
@@ -9,5 +9,10 @@
     &:hover {
         background: var(--color-accent-color);
         transition: all 0.3s ease;
+    }
+    a{
+        color: var(--color-font);
+        text-decoration: none;
+        
     }
 }
