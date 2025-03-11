@@ -5,8 +5,8 @@ import { AppRouter } from "./providers/ui/AppRouter";
 export const App = () => {
   return (
     <div className="App">
-      <Header />
-      <AppRouter />
+        <Header />
+        <AppRouter />
     </div>
   );
 };

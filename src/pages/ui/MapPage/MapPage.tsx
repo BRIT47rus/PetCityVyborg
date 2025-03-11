@@ -2,7 +2,7 @@
 interface MapPageProps {
   className?: string;
 }
-export const MapPage = ({ className }: MapPageProps) => {
+ const MapPage = ({ className }: MapPageProps) => {
   return (
     <div className={className}>
       Страница карты
@@ -10,3 +10,4 @@ export const MapPage = ({ className }: MapPageProps) => {
     </div>
   );
 };
+export default MapPage;

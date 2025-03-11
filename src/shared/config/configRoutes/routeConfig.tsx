@@ -1,4 +1,5 @@
-import { MainPage, MapPage, NotFoundPage, OtherPage } from "pages/ui"
+import { MapPageChunk, NotFoundPage, OtherPage } from "pages/ui"
+import { MainPageChunk } from "pages/ui/MainPage/MainPage.async"
 import { RouteProps } from "react-router-dom"
 export enum AppRoutesEnum {
     MAIN = 'main',
@@ -18,11 +19,11 @@ export const RoutePath: Record<AppRoutesEnum, string> = {
 export const routeConfig: Record<AppRoutesEnum, RouteProps> = {
     [AppRoutesEnum.MAIN]: {
         path: RoutePath.main,
-        element: <MainPage />
+        element: <MainPageChunk/>
     },
     [AppRoutesEnum.MAP]: {
         path: RoutePath.map,
-        element:<MapPage/> 
+        element:<MapPageChunk/>
     },
     [AppRoutesEnum.OTHER]: {
         path: RoutePath.other,

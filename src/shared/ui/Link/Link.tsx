@@ -9,8 +9,8 @@ interface LinkProps {
 }
 export const Link = ({ children, linkTo = "/" }: LinkProps) => {
   return (
-    <div className={classNames(cls.link)}>
-      <NavLink to={linkTo}>{children.toUpperCase()}</NavLink>
-    </div>
+    <NavLink to={linkTo}>
+      <div className={classNames(cls.link)}>{children.toUpperCase()}</div>
+    </NavLink>
   );
 };
