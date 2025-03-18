@@ -1,11 +1,6 @@
-<<<<<<< HEAD:web/src/shared/config/configRoutes/routeConfig.tsx
 
 import { MainPageChunk, MapPageChunk, NotFoundPage } from "pages"
 import { OtherPage } from "pages/OtherPag/OtherPage"
-=======
-import { MapPageChunk, NotFoundPage, OtherPage } from "pages/ui"
-import { MainPageChunk } from "pages/MainPage/MainPage.async"
->>>>>>> 56699d644bfe86bc6b3bb61a5423e2fb4ff20e16:src/shared/config/configRoutes/routeConfig.tsx
 import { RouteProps } from "react-router-dom"
 export enum AppRoutesEnum {
     MAIN = 'main',
