@@ -1,0 +1,17 @@
+.Image{
+    max-width:  var(--size-img-m);
+    font-size: 1px;
+    position: relative;
+    img{
+        width: 100%;
+        // height: 100%;
+    }
+}
+.image__bg{
+ 
+    background: #000;
+    outline: 1px red solid;
+    width: 300px;
+    height: 100px;
+}
+
