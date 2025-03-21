@@ -15,6 +15,7 @@ body {
 }
 
 .App {
+  position: relative;
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
@@ -22,4 +23,19 @@ body {
   height: 100vh;
   color: var(--color-font);
   padding: 0 16px;
+}
+
+
+
+.title_low{
+  font-size: 24px;
+  font-weight: 700;
+}
+.title_middle{
+  font-weight: 700;
+  font-size: 68px;
+}
+.title_hight{
+  font-weight: 700;
+  font-size: 96px;
 }

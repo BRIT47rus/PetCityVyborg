@@ -1,12 +1,13 @@
 .Header {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--size-font-low);
-  margin-right: -16px;
+  padding: var( --size-font-middle);
+
   z-index: 1;
-  background-color: #111a25;
-
-
+  background: var(--color-bg_opacity);
 }
